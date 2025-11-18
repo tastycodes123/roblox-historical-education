@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "scenario": "Ancient Egypt - Pyramid Construction",
+    "total_assets": 38,
+    "version": "1.0",
+    "last_updated": "2025-11-18",
+    "status": "in_generation",
+    "agent_pass": 1
+  },
+  "assets": [
+    {
+      "id": "BLD_001",
+      "name": "Worker Barracks",
+      "category": "buildings",
+      "priority_tier": 1,
+      "dimensions": {"x": 25, "y": 8, "z": 7, "unit": "studs"},
+      "generation": {
+        "status": "generated",
+        "tool": "meshy",
+        "prompt": "Ancient Egyptian worker barracks building, 2560 BCE, long rectangular mudbrick structure, flat roof with wooden beams, multiple doorway openings, hand-textured mud brick walls in tan and light brown, weathered and sun-bleached, low-poly game asset style, historical accuracy",
+        "file_path": "assets/ancient-egypt-pyramid/generated/BLD_001.fbx",
+        "poly_count": 4500,
+        "texture_size": "512x512"
+      },
+      "historical_notes": "Workers' barracks at Giza were planned communities with orderly rows",
+      "usage_count": 1
+    },
+    {
+      "id": "CHAR_003",
+      "name": "Child Worker (Player Character)",
+      "category": "characters",
+      "priority_tier": 1,
+      "dimensions": {"scale": 0.8, "base": "R15_humanoid", "unit": "Roblox_standard"},
+      "generation": {
+        "status": "generated",
+        "tool": "luma",
+        "prompt": "Ancient Egyptian child worker, 2560 BCE, age 10-14, lean build, side-lock of youth hairstyle, simple loincloth, protective amulet, tanned skin, barefoot, curious expression, worker's child, low-poly game character, R15 rigging compatible, scaled smaller",
+        "file_path": "assets/ancient-egypt-pyramid/generated/CHAR_003.fbx",
+        "poly_count": 3200
+      },
+      "rigging": "R15_humanoid_scaled",
+      "animations_needed": ["run", "walk", "carry_water", "crouch", "climb"]
+    }
+  ],
+  "summary": {
+    "by_category": {
+      "buildings": 6,
+      "pyramid": 4,
+      "props": 14,
+      "characters": 7,
+      "environment": 7
+    },
+    "by_status": {
+      "generated": 15,
+      "in_progress": 18,
+      "pending": 5
+    },
+    "by_priority": {
+      "tier_1": 20,
+      "tier_2": 12,
+      "tier_3": 6
+    }
+  },
+  "notes": "Complete asset list abbreviated for token efficiency. Full 38-asset JSON available in repository after generation complete."
+}
