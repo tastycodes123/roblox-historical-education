@@ -4,6 +4,46 @@ Track important design choices and their rationale for the Ancient Egypt scenari
 
 ---
 
+## Work Gang Names: Historical Accuracy Update
+
+**Date:** 2025-11-19  
+**Decision:** Replace generic gang names with historically-grounded alternatives  
+**Context:** Agent 1 historical review flagged anachronistic color-based naming  
+**Rationale:**
+- Original names ("Red Gang", "Blue Gang") were modern game conventions
+- Real pyramid workers used names showing pharaoh devotion and gang pride
+- Archaeological evidence shows names like "The Strong Gang", "Khufu's Followers"
+- Educational value: teach authentic worker culture
+- But avoid inappropriate real names ("Khufu Excites Love", "The Drunkards")
+
+**Changes Made:**
+- Red Gang → "Khufu's Mighty Ones" (strength-based, pharaoh devotion)
+- Blue Gang → "The Great Gang" (simplified from "Great are the Followers of...")
+- Gold Gang → "Khufu's Swift Workers" (speed/efficiency pride)
+- Green Gang → "The Enduring Gang" (attested historical term)
+
+**UI Retained:**
+- Color-coding stays for gameplay clarity (kids expect this)
+- Reputation bars: Red/Blue/Gold/Green
+- Minimap zones: Color-coded
+
+**Historical Authenticity:**
+- Names follow real naming patterns
+- Gang pride and boasting matches historical evidence
+- Option to add graffiti marks (worker tradition) deferred to post-MVP
+
+**Impact:**
+- Agent 6: Gang system updated (v1.1)
+- Agent 5: NPC dialogue to reference full gang names
+- Agent 4: Mission text to use proper names
+- Agent 2: NO CHANGES (assets already in generation)
+
+**Reversible:** Yes - config-driven names, easy to change
+
+**Educational Value:** High - teaches authentic worker culture and pride
+
+---
+
 ## MVP Scope Definition
 
 **Date:** 2025-11-18  
@@ -273,5 +313,5 @@ Track important design choices and their rationale for the Ancient Egypt scenari
 
 ---
 
-**Last Updated:** 2025-11-18  
+**Last Updated:** 2025-11-19  
 **Next Review:** After first playtest

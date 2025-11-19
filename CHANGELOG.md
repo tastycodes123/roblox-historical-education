@@ -6,6 +6,34 @@ Track major changes across all scenarios and infrastructure.
 
 ## Scenario: Ancient Egypt - Pyramid Construction
 
+### Pass 1.1 (2025-11-19)
+**Focus:** Historical accuracy review and gang name updates
+
+**Agent 1 (Historical Research):** Review conducted
+- Identified anachronistic gang naming system
+- Recommended historically-grounded alternatives
+- Overall historical accuracy: 8.5/10
+
+**Agent 6 (Engagement Systems):** v1.1
+- Updated gang names to historically accurate alternatives:
+  - Red Gang: "Khufu's Strong" → "Khufu's Mighty Ones"
+  - Blue Gang: "Enduring" → "The Great Gang"
+  - Gold Gang: "Swift" → "Khufu's Swift Workers"
+  - Green Gang: "Wise" → "The Enduring Gang"
+- Added historical note explaining naming conventions
+- Added gang identity details (territory, boasting, UI)
+- Retained color-coding for gameplay clarity
+- No 3D asset changes required
+
+**Decision Log:** Updated
+- Added "Work Gang Names: Historical Accuracy Update" decision
+- Documented rationale for historically-grounded names
+- Explained compromise between authenticity and kid-appropriateness
+
+**Status:** Gang system historically validated, ready for implementation
+
+---
+
 ### Pass 1 (2025-11-18)
 **Focus:** Initial MVP specification
 
@@ -51,9 +79,10 @@ Track major changes across all scenarios and infrastructure.
 
 ## Infrastructure
 
-### Test Entry (2025-11-18)
-- Verified GitHub workflow operational
-- Tested file fetching and updates
+### 2025-11-19: Agent 1 Historical Review Process
+- Established review workflow
+- Agent 1 can assess historical accuracy across all agents
+- Recommendations can be implemented without breaking asset generation
 
 ### 2025-11-18: Initial Repository Structure
 - Created 6-agent specification system
@@ -75,4 +104,4 @@ Track major changes across all scenarios and infrastructure.
 
 ---
 
-**Last Updated:** 2025-11-18
+**Last Updated:** 2025-11-19

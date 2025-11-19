@@ -1,8 +1,8 @@
 # Agent 6: Engagement Systems - Ancient Egypt Pyramid
 
-**Status:** Draft  
-**Version:** 1.0  
-**Last Updated:** 2025-11-18
+**Status:** Updated  
+**Version:** 1.1  
+**Last Updated:** 2025-11-19
 
 ---
 
@@ -52,12 +52,26 @@
 ## System 3: Work Gang Reputation ⭐ HIGH PRIORITY
 
 **Four Gangs:**
-- Red Gang: "Khufu's Strong" - Strength challenges
-- Blue Gang: "Enduring" - Precision
-- Gold Gang: "Swift" - Speed
-- Green Gang: "Wise" - Problem-solving
+- Red Gang: "Khufu's Mighty Ones" - Strength challenges, heavy stone transport
+- Blue Gang: "The Great Gang" - Precision cutting and placement
+- Gold Gang: "Khufu's Swift Workers" - Speed and ramp construction
+- Green Gang: "The Enduring Gang" - Finishing work and lasting quality
 
 **System:** Join gang, contribute points through missions, leaderboard, visual pyramid progress
+
+**Historical Note:** Real pyramid workers organized into proud gangs with names like "The Strong Gang" and "Khufu's Followers." Our gangs use historically-grounded naming patterns while keeping gameplay clear with color-coded UI elements.
+
+**Gang Identity:**
+- UI: Color-coded reputation bars (Red/Blue/Gold/Green)
+- In-world: NPCs refer to gangs by full name
+- Territory: Each gang works specific pyramid sections
+- Boasting: Gang members brag about their specialty
+
+**Player Experience:**
+- Join one gang early in game (choice matters for missions)
+- Earn reputation through quality work and completed tasks
+- Unlock gang-specific dialogue and respect from NPCs
+- See pyramid progress attributed to your gang's efforts
 
 ---
 
@@ -69,6 +83,16 @@
 ---
 
 ## Change Log
+
+### v1.1 (2025-11-19)
+- Updated gang names to historically-grounded alternatives
+- Red Gang: "Khufu's Strong" → "Khufu's Mighty Ones"
+- Blue Gang: "Enduring" → "The Great Gang"
+- Gold Gang: "Swift" → "Khufu's Swift Workers"
+- Green Gang: "Wise" → "The Enduring Gang"
+- Added historical note explaining naming convention
+- Added gang identity details (territory, boasting, UI)
+- Agent 1 historical accuracy review incorporated
 
 ### v1.0 (2025-11-18)
 - 3 core systems designed (simplified from 5)

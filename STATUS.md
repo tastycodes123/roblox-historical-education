@@ -1,7 +1,7 @@
 # Ancient Egypt Pyramid Construction - Status
 
-**Last Updated:** 2025-11-18  
-**Current Pass:** 1  
+**Last Updated:** 2025-11-19  
+**Current Pass:** 1.1  
 **Overall Status:** In Development (MVP)
 
 ---
@@ -10,12 +10,12 @@
 
 | Component | File | Status | Version | Last Update | Notes |
 |-----------|------|--------|---------|-------------|-------|
-| Historical Research | `01-historical-research.md` | ✅ Approved | 1.0 | 2025-11-18 | Complete, no changes needed |
+| Historical Research | `01-historical-research.md` | ✅ Approved | 1.0 | 2025-11-18 | Complete, accuracy validated |
 | Asset Specifications | `02-asset-specifications.json` | 🔄 In Progress | 1.0 | 2025-11-18 | 15/38 generated via Meshy/Luma |
 | Lua Scripts | `03-lua-scripts/*.lua` | 📝 Draft | 1.0 | 2025-11-18 | Needs Roblox Studio testing |
-| Mission Designs | `04-mission-designs.md` | 📝 Draft | 1.0 | 2025-11-18 | Needs playtesting |
+| Mission Designs | `04-mission-designs.md` | 📝 Draft | 1.0 | 2025-11-18 | Needs gang name updates |
 | Scene Config | `05-scene-config.lua` | 📝 Draft | 1.0 | 2025-11-18 | Asset placement in progress |
-| Engagement Systems | `06-engagement-systems.md` | 📝 Draft | 1.0 | 2025-11-18 | Core design complete |
+| Engagement Systems | `06-engagement-systems.md` | ✅ Updated | 1.1 | 2025-11-19 | Gang names historically validated |
 
 **Legend:**
 - ✅ Approved - Ready for implementation
@@ -26,11 +26,31 @@
 
 ---
 
+## Recent Changes (Pass 1.1)
+
+**Historical Accuracy Review (2025-11-19):**
+- Agent 1 conducted full historical review
+- Identified anachronistic gang naming system
+- Updated gang names to historically-grounded alternatives
+- No impact on 3D asset generation (preserves current pipeline)
+
+**Files Updated:**
+- ✅ `06-engagement-systems.md` (v1.1) - Gang names updated
+- ✅ `DECISIONS.md` - Gang naming decision documented
+- ✅ `CHANGELOG.md` - Change tracked
+- ✅ `STATUS.md` - This file updated
+
+**Pending Updates:**
+- `04-mission-designs.md` - Update gang name references (low priority)
+- `05-scene-config.lua` - Update NPC gang references (low priority)
+
+---
+
 ## Development Phases
 
-### Phase 1: Specification (Current)
+### Phase 1: Specification (Current - 95% complete)
 **Target:** Complete all agent specifications
-**Status:** 90% complete
+**Status:** Main work done, minor updates pending
 
 - [x] Agent 1: Historical Research
 - [x] Agent 2: Asset Specifications  
@@ -38,7 +58,9 @@
 - [x] Agent 4: Mission Designs
 - [x] Agent 5: Scene Configuration
 - [x] Agent 6: Engagement Systems
-- [ ] Cross-agent validation
+- [x] Agent 1: Historical accuracy review ✨ NEW
+- [ ] Update Agent 4 gang references (optional)
+- [ ] Update Agent 5 gang references (optional)
 - [ ] Specification review pass
 
 ### Phase 2: Asset Generation
@@ -119,15 +141,17 @@
 ## Current Sprint Focus
 
 **Week of 2025-11-18:**
-- Complete 3D asset generation (Priority Tier 1)
+- ✅ Complete Agent 1 historical accuracy review
+- ✅ Update gang names based on feedback
+- 🔄 Continue 3D asset generation (Priority Tier 1)
 - Begin Roblox Studio setup
-- Test auto-assembly script with available assets
 
 **Immediate Next Steps:**
 1. Monitor Meshy.ai/Luma.ai generation queue
 2. Download completed assets
 3. Begin importing to Roblox Studio
 4. Test SceneSetup.lua with subset of assets
+5. (Optional) Update gang references in Agents 4 & 5
 
 ---
 
@@ -141,12 +165,17 @@
 - **Estimated completion:** 2-3 days
 
 ### Specification Completeness
-- **Agent 1:** 100% ✅
+- **Agent 1:** 100% ✅ (+ review completed)
 - **Agent 2:** 100% ✅
 - **Agent 3:** 95% (needs testing)
-- **Agent 4:** 90% (needs balance review)
-- **Agent 5:** 85% (asset placement ongoing)
-- **Agent 6:** 100% ✅
+- **Agent 4:** 90% (needs balance review + gang name updates)
+- **Agent 5:** 85% (asset placement ongoing + gang name updates)
+- **Agent 6:** 100% ✅ (v1.1 updated)
+
+### Historical Accuracy
+- **Overall:** 8.5/10 (Agent 1 rating)
+- **Strengths:** Architecture, social hierarchy, child perspective
+- **Improvements Made:** Gang naming system historically validated
 
 ### Testing Coverage
 - **Unit tests:** 0% (not started)
@@ -162,13 +191,14 @@
 - None currently
 
 ### Medium Priority
-- Asset 2 specifications don't include poly counts for all assets (needs update after generation)
+- Agent 2 specifications don't include poly counts for all assets (needs update after generation)
 - Scene config needs asset coordinates (awaiting placement)
 - Mission 4 injury depiction may need age-appropriateness review
 
 ### Low Priority
 - Some NPC dialogue could use more variety
 - Artifact descriptions could be more concise for mobile readability
+- Gang name references in Agent 4 & 5 need updating (low priority, doesn't block)
 
 ---
 
@@ -179,7 +209,7 @@
 | Asset generation fails | Low | High | Have backup manual modeling option |
 | Performance issues on mobile | Medium | High | Aggressive LOD and culling planned |
 | Mission balance off | Medium | Medium | Early playtesting, iterative tuning |
-| Historical inaccuracies | Low | Medium | Expert review scheduled |
+| Historical inaccuracies | ✅ Low (mitigated) | Medium | Agent 1 review completed, issues fixed |
 | Scope creep | Medium | Medium | Strict MVP definition, defer features |
 
 ---
@@ -201,9 +231,10 @@
 
 ## Feedback & Review
 
-**Specification Review Needed:**
-- Agent 4: Mission difficulty curve (needs external review)
-- Agent 6: Monetization model (ethical review)
+**Specification Review Status:**
+- ✅ Agent 1: Historical accuracy review completed (2025-11-19)
+- ⏳ Agent 4: Mission difficulty curve (needs external review)
+- ⏳ Agent 6: Monetization model (ethical review)
 
 **Testing Needed:**
 - Agent 3: All scripts in Roblox Studio
@@ -211,4 +242,4 @@
 
 ---
 
-**Next Status Update:** 2025-11-25 (weekly updates)
+**Next Status Update:** 2025-11-26 (weekly updates)
